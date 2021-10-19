@@ -8,18 +8,20 @@ public class Runner {
 			//code runs from main, top to bottom
 			//tell main method to run newMethod
 			
-			newMethod();
+//			newMethod();
 			
 			//most of the main method will be quite empty,
 			//just calling on other methods that make the code work
 			
-			helloEveryone();
+//			helloEveryone();
 			
-			System.out.println("3");
-			System.out.println("2");
-			System.out.println("1");
+//			System.out.println("3");
+//			System.out.println("2");
+//			System.out.println("1");
 			
-			firstOne.iAmFirst(); //this will run the method from the other file
+			firstOne.favPizzaTopping(); //this will run the method from the other file
+			firstOne.favWord();
+			firstOne.favNumber();
 		}
 		
 	//new method
