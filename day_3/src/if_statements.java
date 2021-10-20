@@ -191,9 +191,20 @@ public class if_statements {
 		}else if (salary <=19999) {
 			tax = salary * 0.1d;
 			return tax;
+		}else if (salary <=29999) {
+			tax = salary * 0.15d;
+			return tax;
+		}else if (salary <=44999) {
+			tax = salary * 0.2d;
+			return tax;
+		}else {
+			tax = salary * 0.25d;
+			return tax;
 		}
-		
-		return
-		
+	}
+	
+	public static double tax_final(double salary) {
+		double tax = tax_calc(salary);
+		return tax;
 	}
 }

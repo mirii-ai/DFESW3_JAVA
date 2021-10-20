@@ -19,9 +19,13 @@ public class run_file {
 //			System.out.println(if_statements.sumOfThree(1, 1, 1));
 //			System.out.println(if_statements.sumOfThree(1, 2, 1));
 			
-			System.out.println(if_statements.fizzBuzz(33));
-			System.out.println(if_statements.fizzBuzz(35));
-			System.out.println(if_statements.fizzBuzz(105));
-			System.out.println(if_statements.fizzBuzz(77));
+//			System.out.println(if_statements.fizzBuzz(33));
+//			System.out.println(if_statements.fizzBuzz(35));
+//			System.out.println(if_statements.fizzBuzz(105));
+//			System.out.println(if_statements.fizzBuzz(77));
+			
+//			System.out.println(if_statements.tax_final(56033));
+//			System.out.println(if_statements.tax_final(20540));
+//			System.out.println(if_statements.tax_final(33333));
 		}
 }
